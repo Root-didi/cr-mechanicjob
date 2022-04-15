@@ -6,6 +6,7 @@ local PlayerJob = {}
 local onDuty = false
 local effectTimer = 0
 local openingDoor = false
+local repairtime = 0
 
 -- zone check
 local isInsideDutyZone = false
@@ -19,6 +20,7 @@ local stashTargetBoxID = 'stashTarget'
 
 
 -- Exports
+local function getveh=repairtime
 
 local function GetVehicleStatusList(plate)
     local retval = nil
